@@ -15,9 +15,10 @@ Recompile/warm-up any XQueries at runtime in the OSB 12c
 # Development
   - Build is based on the Maven
   - JVM 1.8
-  - in pom.xml change path for following properties:
-| Plugin | README |
+  - in pom.xml setup the following properties:
+  
+| Property        | Value       |
+| ------------- |-------------| 
 | wls12cHome | path to FMW WLS 12c home |
-| osb12cHome | path to FMW OSB 12c home |
 | common12cHome | path to FMW 12c Oracle Common home |
   - mvn clean install
