@@ -22,3 +22,6 @@ Recompile/warm-up any XQueries at runtime in the OSB 12c
 | wls12cHome | path to FMW WLS 12c home |
 | common12cHome | path to FMW 12c Oracle Common home |
   - mvn clean install
+
+
+This project is member of [OSB utilities](https://github.com/tomecode/osb-utilities)
